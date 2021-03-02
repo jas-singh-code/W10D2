@@ -1,5 +1,27 @@
-#root {
+#root div span {
+    display: flex;
+    width: 150px;
+    padding: 2px;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 4px;
     font-family: sans-serif;
     background-color: crimson;
     color: whitesmoke;
+    border: 2px solid black;
+
+}
+
+#root div h1 {
+    font-weight: bold;
+    font-size: 26px;
+    background-color: black;
+    width: 80px;
+    color: white;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 2px;
+    border-style: 
+
+
 }

@@ -24,7 +24,7 @@ class Clock extends React.Component {
     }
 
     componentDidUnMount() {
-
+        clearInterval(this.intervalID)
     }
 
     render() {
@@ -37,7 +37,7 @@ class Clock extends React.Component {
                 <h1>Clock</h1>
 
                 <span>
-                    {hours} : {minutes} : {seconds}
+                    time: {hours} : {minutes} : {seconds}
                 </span>
             </div>
             
